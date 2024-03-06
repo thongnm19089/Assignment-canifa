@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ :root {
+    --header: white;
+    --container: white;
+    --footer-top: #333743;
+    --footer-bot: #dddddd;
+    --border: #ccc;
+    --cart: white;
+    --login: #f0ad4e;
+    --silver: #c3cbc8;
+    --red: #FF0000;
+    --white: #ffffff;
+    --blue: #0000cb;
+    --black: black;
+    --darkred: #b40000;
+    --Charcoal: #444444;
+    --Blue_0255af: #0255af;
+    --Blue-337ab7: #337ab7;
+    --Orange: #fda50f;
+    --Black_2a2a2a: #2a2a2a;
+}
+
+.form-login {
+    display: block;
+    margin-bottom: -4px;
+}
+
+.container-login {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1367px) {
+    .container-login {
+        width: 1200px;
+    }
+}
+
+.main-login {
+    width: 50%;
+    margin: auto;
+}
+
+.container-main {
+    display: block;
+}
+
+.title {
+    text-align: left;
+    margin: 30px 0;
+}
+
+.form-main-login {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px 25px;
+}
+
+.monkey-grid {
+    display: grid;
+}
+
+.grid-item {
+    width: 100%;
+}
+
+.form-main-login label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.required-red {
+    color: var(--darkred);
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+.form-main-login select {
+    height: 35px;
+    width: 100%;
+}
+
+.login-email,
+.login-password {
+    grid-column: 1/3;
+}
+
+#font-select {
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#btnDangKy,
+#btnDangNhap {
+    background: var(--darkred);
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    width: 100px;
+    border-radius: 3px;
+    padding: 5px 15px;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+#btnDangKy2,
+#btnDangNhap2 {
+    background: var(--blue);
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    width: 100px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+option {
+    font-size: 15px;
+}
+
+.cart-tv {
+    position: relative;
+}
+
+.card-tv img:first-child {
+    position: absolute;
+    right: 50px;
+    /* bottom: 120px; */
+    width: 400px;
+}
+
+.card-tv img:last-child {
+    width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.register-account {
+    padding-top: 16px;
+    background-color: white;
+}
